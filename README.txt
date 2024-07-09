@@ -28,3 +28,11 @@ ex) git add README.txt
 -> git push origin main 
 
 # origin(원격저장소)의 main이라는 방에 내 커밋들을 올려라(push)
+
+
+
+※ 참고사항
+
+2020년 10월부터 깃헙에서 레포지토리를 생성하면 기본 branch가 main으로 생성된다.
+
+단, CLI 환경(Command Line Interface. 터미널이나 커맨드 프롬프트에서 명령어를 입력해서 컴퓨터와 상호작용하는 방식. '명령줄 인터페이스'라는 뜻) 에서 git init 을 통해 새로운 Git 프로젝트를 생성하면 master 라는 이름의 branch를 기본으로 지정하여 프로젝트가 생성된다. 즉, CLI 환경에서는 main 처럼 기본 브랜치의 이름을 변경할 수 있다.
