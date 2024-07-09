@@ -36,3 +36,15 @@ ex) git add README.txt
 2020년 10월부터 깃헙에서 레포지토리를 생성하면 기본 branch가 main으로 생성된다.
 
 단, CLI 환경(Command Line Interface. 터미널이나 커맨드 프롬프트에서 명령어를 입력해서 컴퓨터와 상호작용하는 방식. '명령줄 인터페이스'라는 뜻) 에서 git init 을 통해 새로운 Git 프로젝트를 생성하면 master 라는 이름의 branch를 기본으로 지정하여 프로젝트가 생성된다. 즉, CLI 환경에서는 main 처럼 기본 브랜치의 이름을 변경할 수 있다.
+
+
+
+※ 요약
+
+1. git add README.txt     (RE 까지만 치고 tab 누르면 자동완성)
+2. git commit -m "커밋 메시지 입력"
+3. git push origin main
+
+( 단, 이것들은 git init 으로 새 Git 프로젝트를 생성하고 버전 관리를 위해 유저 이메일, 이름을 등록했다는 것을 가정함. )
+( git config --global user,email "aaa@naver.com" )
+( git config --global user.name "Lim" ) 
